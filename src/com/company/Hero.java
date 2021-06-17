@@ -1,6 +1,6 @@
 package com.company;
 
-public class Hero {
+public class Hero{
     int health;//0
     int damage;
     String superAbility;
@@ -14,11 +14,10 @@ public class Hero {
         return super.toString();
     }
 
-    //new Hero()-> .....
     public Hero(int health, int damage, String superAbility) {
-        this.health = health;//0=250
-        this.damage = damage;//0=50
-        this.superAbility = superAbility;//""="Mental"
+        this.health = health;
+        this.damage = damage;
+        this.superAbility = superAbility;
     }
 
     public int getHealth() {
@@ -26,8 +25,7 @@ public class Hero {
     }
 
     public void setHealth(int health) {
-        this.health = health;//0=100
-    }
+        this.health = health;}
 
     public int getDamage() {
         return damage;

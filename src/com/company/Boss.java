@@ -1,9 +1,6 @@
 package com.company;
 
-public class Boss {
-
-    int health;
-    int damage;
+public class Boss extends Player{
     int boss_protected;
 
     public int getHealth() {
